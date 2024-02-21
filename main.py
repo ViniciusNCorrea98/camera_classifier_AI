@@ -1,3 +1,10 @@
+#pip install scikit-learn
+#pip install numpy
+#pip install opencv-python
+#pip install pillow
+
+
+
 import app
 
 def main():

@@ -87,12 +87,12 @@ class App:
 
 
         self.counters = [1, 1]
-        #self.model = model.Model()
+        self.model = model.Model()
         self.class_label.config(text='CLASS')
 
     def update(self):
         if self.auto_predict:
-            self.predict()
+            print(self.predict())
 
         ret, frame = self.camera.get_frame()
 
